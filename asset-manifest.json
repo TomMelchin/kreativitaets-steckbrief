@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kreativitaets-steckbrief/static/css/main.80a0539a.css",
-    "main.js": "/kreativitaets-steckbrief/static/js/main.05584d84.js",
+    "main.css": "/kreativitaets-steckbrief/static/css/main.b30362a9.css",
+    "main.js": "/kreativitaets-steckbrief/static/js/main.55337e1d.js",
     "static/media/berit.jpg": "/kreativitaets-steckbrief/static/media/berit.bb3eda82e9fb92f6cc1f.jpg",
     "static/media/Mondrahmen.jpg": "/kreativitaets-steckbrief/static/media/Mondrahmen.0daa5a5e482ff8da5eee.jpg",
     "static/media/App.png": "/kreativitaets-steckbrief/static/media/App.08e9af11ec22e9a7d21b.png",
@@ -13,11 +13,11 @@
     "static/media/HS.png": "/kreativitaets-steckbrief/static/media/HS.3bc6755e2b45388e8d2e.png",
     "static/media/earth.png": "/kreativitaets-steckbrief/static/media/earth.b11d550477929fd12600.png",
     "index.html": "/kreativitaets-steckbrief/index.html",
-    "main.80a0539a.css.map": "/kreativitaets-steckbrief/static/css/main.80a0539a.css.map",
-    "main.05584d84.js.map": "/kreativitaets-steckbrief/static/js/main.05584d84.js.map"
+    "main.b30362a9.css.map": "/kreativitaets-steckbrief/static/css/main.b30362a9.css.map",
+    "main.55337e1d.js.map": "/kreativitaets-steckbrief/static/js/main.55337e1d.js.map"
   },
   "entrypoints": [
-    "static/css/main.80a0539a.css",
-    "static/js/main.05584d84.js"
+    "static/css/main.b30362a9.css",
+    "static/js/main.55337e1d.js"
   ]
 }
