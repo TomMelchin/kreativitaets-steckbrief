@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kreativitaets-steckbrief/static/css/main.80a0539a.css",
+    "main.js": "/kreativitaets-steckbrief/static/js/main.05584d84.js",
+    "static/media/berit.jpg": "/kreativitaets-steckbrief/static/media/berit.bb3eda82e9fb92f6cc1f.jpg",
+    "static/media/Mondrahmen.jpg": "/kreativitaets-steckbrief/static/media/Mondrahmen.0daa5a5e482ff8da5eee.jpg",
+    "static/media/App.png": "/kreativitaets-steckbrief/static/media/App.08e9af11ec22e9a7d21b.png",
+    "static/media/MoodMoon.png": "/kreativitaets-steckbrief/static/media/MoodMoon.4477d419c025849c9e59.png",
+    "static/media/kreativ.png": "/kreativitaets-steckbrief/static/media/kreativ.53b13978e8e21d8892ca.png",
+    "static/media/KIBild.jpg": "/kreativitaets-steckbrief/static/media/KIBild.3e71e0752585247cde50.jpg",
+    "static/media/inspiration.jpg": "/kreativitaets-steckbrief/static/media/inspiration.951d2efed07f17b844d5.jpg",
+    "static/media/brainstorming.jpg": "/kreativitaets-steckbrief/static/media/brainstorming.5e3ec80cdd4bc480a79f.jpg",
+    "static/media/HS.png": "/kreativitaets-steckbrief/static/media/HS.3bc6755e2b45388e8d2e.png",
+    "static/media/earth.png": "/kreativitaets-steckbrief/static/media/earth.b11d550477929fd12600.png",
+    "index.html": "/kreativitaets-steckbrief/index.html",
+    "main.80a0539a.css.map": "/kreativitaets-steckbrief/static/css/main.80a0539a.css.map",
+    "main.05584d84.js.map": "/kreativitaets-steckbrief/static/js/main.05584d84.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80a0539a.css",
+    "static/js/main.05584d84.js"
+  ]
+}
