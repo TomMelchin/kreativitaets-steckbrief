@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import Card from './components/Card'
-import confetti from 'https://cdn.skypack.dev/canvas-confetti'
+import confetti from 'canvas-confetti';
 
 const cardImages = [
   { source: "berit.jpg", matched: false },

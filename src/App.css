@@ -63,4 +63,20 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
+  margin-left: -7px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-grid {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-left: -1px;
+    rotate: 90deg;
+  }
+
+  img {
+    rotate: -90deg;
+  }
 }

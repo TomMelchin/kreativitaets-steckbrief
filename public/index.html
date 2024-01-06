@@ -3,17 +3,24 @@
 
 <head>
   <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <link rel="icon" href="%PUBLIC_URL%/kreativ.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Website mit React erstellt für Modul Kreativitätstechniken" />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <meta name="description" content="Memory für Modul Kreativitätstechniken" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/kreativ.png" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <title>Kreativitäts-Steckbrief</title>
 </head>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
+  <input type="range" min="50" max="300" value="100" itemid="slider" id="zoomSlider">
+  <script type="text/javascript">
+    var slider = document.getElementById("zoomSlider");
+    slider.oninput = function () {
+      document.getElementsByClassName("app")[0].style.setProperty("zoom", `${slider.value}%`);
+    }
+  </script>
   <div id="root"></div>
 </body>
 
