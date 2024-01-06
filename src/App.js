@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import Card from './components/Card'
+import confetti from 'https://cdn.skypack.dev/canvas-confetti'
 
 const cardImages = [
   { source: "berit.jpg", matched: false },
@@ -55,6 +56,10 @@ function App() {
     }
     setDisabled(true)
     if (choiceOne.source === choiceTwo.source) {
+      if (cards.filter(c => c.matched === false).length === 2) {
+        shootConfetti()
+      }
+
       setCards(prevCards => {
         return prevCards.map(card => {
           if (card.source === choiceOne.source) {
@@ -68,7 +73,7 @@ function App() {
     else {
       setTimeout(() => resetTurn(), 1000)
     }
-
+    // eslint-disable-next-line
   }, [choiceOne, choiceTwo])
 
   const resetTurn = () => {
@@ -105,6 +110,44 @@ function App() {
       </div>
     </div>
   )
+
+  function shootConfetti(){
+    var count = 300;
+        var defaults = {
+          origin: { y: 1.0 }
+        }
+
+        function fire(particleRatio, opts) {
+          confetti({
+            ...defaults,
+            ...opts,
+            particleCount: Math.floor(count * particleRatio)
+          });
+        }
+
+        fire(0.25, {
+          spread: 26,
+          startVelocity: 55,
+        })
+        fire(0.2, {
+          spread: 60,
+        })
+        fire(0.35, {
+          spread: 100,
+          decay: 0.91,
+          scalar: 0.8
+        })
+        fire(0.1, {
+          spread: 120,
+          startVelocity: 25,
+          decay: 0.92,
+          scalar: 1.2
+        })
+        fire(0.1, {
+          spread: 120,
+          startVelocity: 45,
+        })
+  }
 }
 
 export default App
